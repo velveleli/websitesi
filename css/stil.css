@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header.ust
+{
+    background: url(../images/sahil.JPG);
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    position: relative;
+    font-size: 18px;
+    margin-left: 30px;
+    top: 50px;
+    color: white;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+header strong{
+    font-weight: 700;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+header ul{
+    list-style: none;
+    position: relative;
+    float: right;
+    right: 20px;
+    top: 0;
+}
+header ul li{
+    display: block;
+    padding: 30px;
+    float: left;    
+}
+header ul li a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #d8d8d8;
+    transition: .2s;
+}
+header ul li a:hover{
+    color: #ffffff;
+}
+header #banner{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+}
+#banner h2{
+    font-size: 40px;
+    color: rgb(12, 17, 19);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+#banner p{
+    color: rgb(4, 10, 12);
+    font-size: 22px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+#banner a{
+    padding: 25px 35px;
+    background: rgb(33, 118, 133);
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#bolum2{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+.kapsayıcı{
+    width: 1000px;
+    margin: 0 auto;
+}
+#bolum2 .kapsayıcı .sol{
+    width: 400px;
+    float: left;
+    padding-left: 70px;
+}
+#bolum2 h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #484848;
+    line-height: 60px;
+}
+#bolum2 .sol p{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #aaa;
+    line-height: 40px;
+}
+#bolum2 .sağ{
+    width: 400px;
+    float: right;
+    padding-right: 50px;
+    margin-left: 40px;
+}
+#bolum2 .sağ p{
+    line-height: 30px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.temizle{
+    clear: both;
+}
+#bolum3{
+    width: 100%;
+    margin: 0% auto;
+    padding: 50px 0px;
+    background: #f6f6f6;
+    text-align: center;
+}
+#bolum3 h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    color: #484848;
+}
+#bolum3 p{
+    margin: 40px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+#bolum3 .resim{
+    width: 500px;
+    float: left;
+    background: #fff;
+    margin: 30px 20px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 3px #ccc;
+}
+#bolum3 img{
+    width: 500px;
+    margin: 0px;
+}
+#bolum3 .kapsayici2{
+    width: 1084px;
+    margin: 0 auto;
+}
+#bolum3 ul{
+    list-style: none;
+}
+#bolum3 ul li{
+    display: inline-block;
+}
+#bolum3 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 20px 50px;
+    color: white;
+    background: rgb(88, 144, 185);
+    font-weight: 600;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+}
+#bolum4 img{
+    width: 200px;
+    margin: 0 auto;
+}
+#bolum4{
+    width: 100%;
+    padding-top: 50px;
+}
+#bolum4 h2{
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    color: #484848;
+    margin-bottom: 30px;
+}
+#bolum4 h2+p{
+    font-size: 18px;
+    color: #666;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+#bolum4 .bolumler{
+    width: 500px;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+#bolum4 .bolumler .kucukresim{
+    float: right;
+    width: 130px;
+    margin: 10px;
+}
+#bolum4 .bolumler .kucukresim img{
+    border: #b0b0b0;
+    border-radius: 200%;
+    width: 130px;
+}
+#bolum4 .bolumler .yazi{
+    float: left;
+    width: 300px;
+    text-align: right;
+    padding: 10px;
+    line-height: 25px;
+}
+#bolum4 .bolumler h3{
+    text-align: right;
+    font-size: 18px;
+    color: #484848;
+    margin-bottom: 10px;
+}
+#bolum4 .bolumler:nth-child(2n) .yazi{
+    text-align: left;
+}
+#bolum4 .bolumler:nth-child(2n) .yazi h3{
+    text-align: left;
+}
+#bolum4 .bolumler:nth-child(2n) .kucukresim{
+    float: left;
+}
+#bolum5{
+    width: 100%;
+    height: 350px;
+    background: url(../images/sahil.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+#bolum5 .icerik{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+#bolum5 .icerik h2{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+#bolum5 .icerik p{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+#bolum5 .icerik a{
+    font-size: 20px;
+    font-weight: 700px;
+    display: inline-block;
+    padding: 20px 35px;
+    background: rgb(56, 136, 157);
+    text-decoration: none;
+    border-radius: 40%;
+    color: #fff;
+    transition: 0.2s;
+}
+#bolum5 .icerik a:hover{
+    background: rgb(94, 154, 154);
+}
+footer{
+    width: 100%;
+    height: 350px;
+    text-align: center;
+}
+footer .sosyal{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+footer a{
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+footer a[title="facebook"]::before{
+    content: '';
+    background: url(../images/Facebook-logo-blue-circle-large-transparent-png.png) no-repeat;
+    width: 45px;
+    height: 42px;
+    display: inline-block;
+}
+footer a[title="twitter"]::before{
+    content: '';
+    background: url(../images/png-transparent-twitter-logo-computer-icons-logo-twitter-icon-computer-wallpaper-monochrome-bird-thumbnail.png) no-repeat;
+    width: 45px;
+    height: 42px;
+    display: inline-block;
+}
+footer a[title="linkedin"]::before{
+    content: '';
+    background: url(../images/174857.png) no-repeat;
+    width: 45px;
+    height: 42px;
+    display: inline-block;
+}
+footer ul{
+    list-style: none;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+footer ul li{
+    display: inline-block;
+    padding: 2px 25px;
+} footer ul li p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: darkgray;
+}
+footer ul li:nth-child(-n+2){
+    border-right: 2px solid #b4b1b1;
+    
+}

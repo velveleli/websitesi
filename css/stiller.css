@@ -1,0 +1,60 @@
+#container{
+        width: 960px;
+        height: 670px;
+        background: rgb(4, 97, 38);
+        margin: 0 auto 0 auto;
+        padding-top: 10px;
+        }
+        header#banner{
+        width: 940px;
+        height: 100px;
+        background: rgb(117, 1, 1);
+        margin: 0 auto;
+        }
+        nav{
+            width: 150px;
+            height: 450px;
+            margin: 10px;
+            background: rgb(38, 38, 120);
+            float: left;
+        }
+        section{
+            width: 600px;
+            height: 440px;
+            margin: 10px;
+            background: black;
+            float: left;
+            padding-top: 10px;
+        }
+        aside{
+            width: 150px;
+            height: 450px;
+            margin: 10px;
+            background: rgb(38, 38, 120);
+            float: left;
+        }
+        footer#sitesonu{
+            width: 940px;
+            height: 80px;
+            margin: 10px;
+            background: rgb(97, 61, 102);
+            float: left;
+        }
+        header#makale{
+            width: 450px;
+            height: 50px;
+            margin: 0 auto;
+            background: wheat;
+        }
+        article.makale{
+            width: 450px;
+            height: 200px;
+            margin: 10px auto;
+            background: wheat;
+        }
+        footer#makalesonu{
+            width: 450px;
+            height: 160px;
+            margin: 0 auto;
+            background: rgb(50, 150, 152);
+        }
